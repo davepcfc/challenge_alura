@@ -1,2 +1,6 @@
-package org.example.valores;public record Moeda() {
+package org.example.valores;
+
+public record MoedaConvertida(
+        String conversion_result
+) {
 }
